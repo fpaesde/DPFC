@@ -1,0 +1,29 @@
+{
+    "base_estimator_params": {
+        "learning_rate": 0.29959092667707043,
+        "n_estimators": 285,
+        "max_depth": 8,
+        "num_leaves": 93,
+        "min_child_samples": 16,
+        "subsample": 0.8494882686380225,
+        "colsample_bytree": 0.8410357683944858,
+        "reg_alpha": 0.0022540263477070256,
+        "reg_lambda": 0.003728385564801338
+    },
+    "ps_estimator_params": {
+        "learning_rate": 0.03315240147921555,
+        "n_estimators": 223,
+        "max_depth": 8,
+        "num_leaves": 70,
+        "min_child_samples": 98,
+        "subsample": 0.5669693033250676,
+        "colsample_bytree": 0.7149338481453151,
+        "reg_alpha": 0.002171875069205353,
+        "reg_lambda": 0.00048435124056743235
+    },
+    "metadata": {
+        "best_mae": 0.24430316023629534,
+        "optimization_completed": "2024-11-14 14:27:04.938867",
+        "n_trials": 500
+    }
+}
