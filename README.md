@@ -10,7 +10,7 @@ Source code for the project Towards Principal Fairness in Decision Making System
 
 ## Outcome Estimation
 
-To replicate the experiments in Section 4.1, enter the source directory
+To replicate the experiments in Section 5.1, enter the source directory
 
 `cd src`
 
@@ -20,7 +20,7 @@ And run the experiments for all simulations
 
 ## Decision Making
 
-To replicate the experiments in Section 4.2, enter the source directory
+To replicate the experiments in Section 5.2, enter the source directory
 
 `cd src`
 
