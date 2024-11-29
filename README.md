@@ -6,7 +6,7 @@ Source code for the project Towards Principal Fairness in Decision Making System
 ### Requirements
 
 - Python >= 3.6
-- `pip install -r requirements.txt`
+- `conda env create -f environment.yml`
 
 ## Outcome Estimation
 
@@ -26,9 +26,11 @@ To replicate the experiments in Section 4.2, enter the source directory
 
 And run the experiments for the required dataset
 
-`python decision_evaluation_warfarin.py`
+`python hyperparameter_tuning_outcomes.py --name "warfarin"`
 
-`python decision_evaluation_warfarin_dcfr.py`
+`python decision_evaluation_warfarin.py --name "warfarin"`
+
+`python decision_evaluation_warfarin_dcfr.py --name "warfarin"`
 
 `python decision_evaluation_psa.py --name FTA`
 
